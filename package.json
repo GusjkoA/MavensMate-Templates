@@ -1,0 +1,100 @@
+{
+	"ApexClass" : [
+		{
+			"name" 			: "Batch",
+			"file_name"		: "Batch.cls",
+			"description" 	: "Batchable Apex Class",
+			"author" 		: "Arturs Gusjko"
+		},
+		{
+			"name" 			: "Controller",
+			"file_name"		: "Controller.cls",
+			"description" 	: "Controller Apex Class",
+			"author" 		: "Arturs Gusjko"
+		},
+		{
+			"name" 			: "Logic",
+			"file_name"		: "Logic.cls",
+			"description" 	: "Logic (Handler) Apex Class - not to be confused with Trigger Handler",
+			"author" 		: "Arturs Gusjko"
+		},
+		{
+			"name" 			: "Schedulable",
+			"file_name"		: "Schedulable.cls",
+			"description" 	: "Schedulable Apex Class",
+			"author" 		: "Arturs Gusjko"
+		},
+		{
+			"name" 			: "Data (Default)",
+			"file_name"		: "Default.cls",
+			"description" 	: "Default Apex Class commonly used for Models",
+			"author" 		: "Arturs Gusjko"
+		},
+		{
+			"name" 			: "Unit Test",
+			"file_name"		: "UnitTest.cls",
+			"description" 	: "Unit test Apex Class",
+			"author" 		: "Arturs Gusjko"
+		},
+		{
+			"name" 			: "RESTful Service",
+			"file_name"		: "Rest.cls",
+			"description" 	: "RESTful Apex Class",
+			"author" 		: "Arturs Gusjko"
+		},
+		{
+			"name" 			: "Web Service",
+			"file_name"		: "Webservice.cls",
+			"description" 	: "Web service Apex Class",
+			"author" 		: "Arturs Gusjko"
+		},
+		{
+			"name" 			: "Static",
+			"file_name"		: "Static.cls",
+			"description" 	: "Static Apex Class",
+			"author" 		: "Arturs Gusjko"
+		},
+		{
+			"name" 			: "Custom Exception",
+			"file_name"		: "Exception.cls",
+			"description" 	: "A custom exception class",
+			"author" 		: "Arturs Gusjko"
+		},
+		{
+			"name" 			: "Email Service",
+			"file_name"		: "EmailService.cls",
+			"description" 	: "Template for an Apex Email Service",
+			"author" 		: "Arturs Gusjko"
+		},
+		{
+			"name" 			: "URL Rewriter",
+			"file_name"		: "UrlRewriterApexClass.cls",
+			"description" 	: "URL Rewriter class",
+			"author" 		: "Arturs Gusjko"
+		}
+	],
+	"ApexComponent" : [
+		{
+			"name" 			: "Default",
+			"file_name"		: "default.component",
+			"description" 	: "Basic Visualforce Component template",
+			"author" 		: "Arturs Gusjko"
+		}
+	],
+	"ApexPage" : [
+		{
+			"name" 			: "Default",
+			"file_name"		: "default.page",
+			"description" 	: "Basic Visualforce Page template",
+			"author" 		: "Arturs Gusjko"
+		}
+	],
+	"ApexTrigger" : [
+		{
+			"name" 			: "Default",
+			"file_name"		: "default.trigger",
+			"description" 	: "Basic Apex Trigger template",
+			"author" 		: "Arturs Gusjko"
+		}
+	]
+}
