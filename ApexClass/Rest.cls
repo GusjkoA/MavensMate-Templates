@@ -6,7 +6,7 @@
  * @author Arturs Gusjko
  */
 @RestResource(urlMapping='/my_url/*')
-global WITH sharing class MyRestResource
+global WITH sharing class {{ api_name }}
 {
 
     static private RestRequest req = RestContext.request; // properties: params, requestURI, requestPath, remoteAddr, httpMethod, headers, requestBody
