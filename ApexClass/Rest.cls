@@ -37,7 +37,7 @@ global WITH sharing class MyRestResource
     {
         Account account = new Account();
         account.Name = name;
-        account.phone = phone;
+        account.phone = String.valueOf(phone);
         insert account;
         return account.Id;
     }
