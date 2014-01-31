@@ -19,8 +19,8 @@ global WITH sharing class MyRestResource
     global static String doGet()
     {
         String accountId = req.requestURI.substringAfter('/');
-        Account result = [SELECT Id, Name, Phone, Website FROM Account WHERE Id = :accountId];
-        return result;
+        List<Account> result = [SELECT Id, Name, Phone, Website FROM Account WHERE Id = :accountId];
+        return 'hello world';
     }
 
     /**
