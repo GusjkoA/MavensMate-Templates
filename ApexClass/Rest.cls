@@ -62,8 +62,6 @@ global WITH sharing class MyRestResource
     @HttpDelete
     global static void doDelete()
     {
-        RestRequest req = RestContext.request;
-        RestResponse res = RestContext.response;
         String accountId = req.requestURI.substringAfter('/');
         Account account = [SELECT Id FROM Account WHERE Id = :accountId];
         delete account;
