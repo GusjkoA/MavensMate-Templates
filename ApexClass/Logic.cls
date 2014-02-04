@@ -6,7 +6,7 @@
  *
  * @author		Arturs Gusjko
  */
-public without sharing class {{ api_name }} extends AnyClass
+public without sharing class {{ api_name }} extends AbstractLogic
 {
 	/************* PUBLIC METHODS ***************/
 
