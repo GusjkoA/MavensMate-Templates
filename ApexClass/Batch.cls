@@ -3,7 +3,7 @@
  *
  * @author		Arturs Gusjko
  */
-global withOUT sharing class {{ api_name }}	extends AbstractBatchable
+global withOUT sharing class {{ api_name }} extends AbstractBatchable
 {
 	global {{ api_name }}()
 	{
