@@ -13,7 +13,7 @@ global class {{ api_name }} extends AbstractSchedulable
 		// RescheduleTimeInMins = 60;
 	}
 
-	global void schExecute(SchedulableContext sc)
+	global override void schExecute(SchedulableContext sc)
 	{
 		// logic here
 	}
