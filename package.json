@@ -68,7 +68,7 @@
 		},
 		{
 			"name" 			: "URL Rewriter",
-			"file_name"		: "UrlRewriterApexClass.cls",
+			"file_name"		: "UrlRewrite.cls",
 			"description" 	: "URL Rewriter class",
 			"author" 		: "Arturs Gusjko"
 		}
