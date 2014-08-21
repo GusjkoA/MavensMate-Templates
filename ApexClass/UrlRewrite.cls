@@ -1,5 +1,5 @@
 /**
- * Url rewriter for
+ * {{ class_description }}
  *
  * @author		Arturs Gusjko
  */

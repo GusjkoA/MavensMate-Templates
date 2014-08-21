@@ -6,7 +6,7 @@
  *
  * @author		Arturs Gusjko
  */
-public without sharing class {{ api_name }} extends AbstractLogic
+public with sharing class {{ api_name }}
 {
 	/************* PUBLIC METHODS ***************/
 
@@ -23,12 +23,12 @@ public without sharing class {{ api_name }} extends AbstractLogic
 	private {{ api_name }}(){}
 
 	/*
-	// with sharing logic goes inside this class and is exposed via wrapping methods.
-	private with sharing class {{ api_name }}WithSharing extends AnyClass
+	// without sharing logic goes inside this class and is exposed via wrapping methods.
+	private without sharing class {{ api_name }}WithoutSharing
 	{
 		
 	}
 
-	static private final {{ api_name }}WithSharing logicWithSharing = new {{ api_name }}WithSharing();
+	static private final {{ api_name }}WithoutSharing withoutSharing = new {{ api_name }}WithoutSharing();
 	*/
 }

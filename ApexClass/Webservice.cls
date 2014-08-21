@@ -1,5 +1,7 @@
 /**
- * SOAP web service endpoint for
+ * SOAP web service types/methods.
+ *
+ * {{ class_description }}
  *
  * @author		Arturs Gusjko
  */

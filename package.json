@@ -10,13 +10,32 @@
 			"name" 			: "Controller",
 			"file_name"		: "Controller.cls",
 			"description" 	: "Controller Apex Class",
-			"author" 		: "Arturs Gusjko"
+			"author" 		: "Arturs Gusjko",
+			"params"		: [
+				{
+					"name"			: "api_name",
+					"description"	: "Visualforce API Name",
+					"default"		: "MyVisualforcePageName"
+				},
+				{
+					"name"			: "class_description",
+					"description"	: "Short page description that is added to the header comments.",
+					"default"		: ""
+				}
+			]
 		},
 		{
-			"name" 			: "Logic",
+			"name" 			: "Handler",
 			"file_name"		: "Logic.cls",
 			"description" 	: "Logic (Handler) Apex Class - not to be confused with Trigger Handler",
-			"author" 		: "Arturs Gusjko"
+			"author" 		: "Arturs Gusjko",
+			"params"		: [
+				{
+					"name"			: "api_name",
+					"description"	: "Visualforce API Name",
+					"default"		: "MyVisualforcePageName"
+				}
+			]
 		},
 		{
 			"name" 			: "Schedulable",
@@ -28,49 +47,122 @@
 			"name" 			: "Data (Default)",
 			"file_name"		: "Default.cls",
 			"description" 	: "Default Apex Class commonly used for Models",
-			"author" 		: "Arturs Gusjko"
+			"author" 		: "Arturs Gusjko",
+			"params"		: [
+				{
+					"name"			: "api_name",
+					"description"	: "Visualforce API Name",
+					"default"		: "MyVisualforcePageName"
+				},
+				{
+					"name"			: "class_description",
+					"description"	: "Short page description that is added to the header comments.",
+					"default"		: ""
+				}
+			]
 		},
 		{
 			"name" 			: "Unit Test",
 			"file_name"		: "UnitTest.cls",
 			"description" 	: "Unit test Apex Class",
-			"author" 		: "Arturs Gusjko"
+			"author" 		: "Arturs Gusjko",
+			"params"		: [
+				{
+					"name"			: "api_name",
+					"description"	: "Visualforce API Name",
+					"default"		: "MyVisualforcePageName"
+				}
+			]
 		},
 		{
 			"name" 			: "RESTful Service",
 			"file_name"		: "Rest.cls",
 			"description" 	: "RESTful Apex Class",
-			"author" 		: "Arturs Gusjko"
+			"author" 		: "Arturs Gusjko",
+			"params"		: [
+				{
+					"name"			: "api_name",
+					"description"	: "Visualforce API Name",
+					"default"		: "MyVisualforcePageName"
+				},
+				{
+					"name"			: "class_description",
+					"description"	: "Short page description that is added to the header comments.",
+					"default"		: ""
+				}
+			]
 		},
 		{
 			"name" 			: "Web Service",
 			"file_name"		: "Webservice.cls",
 			"description" 	: "Web service Apex Class",
-			"author" 		: "Arturs Gusjko"
-		},
-		{
-			"name" 			: "Static",
-			"file_name"		: "Static.cls",
-			"description" 	: "Static Apex Class",
-			"author" 		: "Arturs Gusjko"
+			"author" 		: "Arturs Gusjko",
+			"params"		: [
+				{
+					"name"			: "api_name",
+					"description"	: "Visualforce API Name",
+					"default"		: "MyVisualforcePageName"
+				},
+				{
+					"name"			: "class_description",
+					"description"	: "Short page description that is added to the header comments.",
+					"default"		: ""
+				}
+			]
 		},
 		{
 			"name" 			: "Custom Exception",
 			"file_name"		: "Exception.cls",
 			"description" 	: "A custom exception class",
-			"author" 		: "Arturs Gusjko"
+			"author" 		: "Arturs Gusjko",
+			"params"		: [
+				{
+					"name"			: "api_name",
+					"description"	: "Visualforce API Name",
+					"default"		: "MyVisualforcePageName"
+				},
+				{
+					"name"			: "class_description",
+					"description"	: "Short page description that is added to the header comments.",
+					"default"		: ""
+				}
+			]
 		},
 		{
 			"name" 			: "Email Service",
 			"file_name"		: "EmailService.cls",
 			"description" 	: "Template for an Apex Email Service",
-			"author" 		: "Arturs Gusjko"
+			"author" 		: "Arturs Gusjko",
+			"params"		: [
+				{
+					"name"			: "api_name",
+					"description"	: "Visualforce API Name",
+					"default"		: "MyVisualforcePageName"
+				},
+				{
+					"name"			: "class_description",
+					"description"	: "Short page description that is added to the header comments.",
+					"default"		: ""
+				}
+			]
 		},
 		{
 			"name" 			: "URL Rewriter",
 			"file_name"		: "UrlRewrite.cls",
 			"description" 	: "URL Rewriter class",
-			"author" 		: "Arturs Gusjko"
+			"author" 		: "Arturs Gusjko",
+			"params"		: [
+				{
+					"name"			: "api_name",
+					"description"	: "Visualforce API Name",
+					"default"		: "MyVisualforcePageName"
+				},
+				{
+					"name"			: "class_description",
+					"description"	: "Short page description that is added to the header comments.",
+					"default"		: ""
+				}
+			]
 		}
 	],
 	"ApexComponent" : [
@@ -78,7 +170,19 @@
 			"name" 			: "Default",
 			"file_name"		: "default.component",
 			"description" 	: "Basic Visualforce Component template",
-			"author" 		: "Arturs Gusjko"
+			"author" 		: "Arturs Gusjko",
+			"params"		: [
+				{
+					"name"			: "api_name",
+					"description"	: "Visualforce API Name",
+					"default"		: "MyVisualforcePageName"
+				},
+				{
+					"name"			: "page_description",
+					"description"	: "Short page description that is added to the comments.",
+					"default"		: ""
+				}
+			]
 		}
 	],
 	"ApexPage" : [
@@ -86,15 +190,57 @@
 			"name" 			: "Default",
 			"file_name"		: "default.page",
 			"description" 	: "Basic Visualforce Page template",
-			"author" 		: "Arturs Gusjko"
+			"author" 		: "Arturs Gusjko",
+			"params"		: [
+				{
+					"name"			: "api_name",
+					"description"	: "Visualforce API Name",
+					"default"		: "MyVisualforcePageName"
+				},
+				{
+					"name"			: "page_description",
+					"description"	: "Short page description that is added to the comments.",
+					"default"		: ""
+				}
+			]
 		}
 	],
 	"ApexTrigger" : [
 		{
+			"name"			: "Abstract",
+			"file_name"		: "auto.trigger",
+			"description"	: "Uses abstract trigger class to execute the trigger",
+			"author"		: "Arturs Gusjko",
+			"params"		: [
+				{
+					"name"			: "api_name",
+					"description"	: "Trigger API Name",
+					"default"		: "Account"
+				},
+				{
+					"name"			: "object_name",
+					"description"	: "Object API Name",
+					"default"		: "Account"
+				}
+			]
+		},
+		{
 			"name" 			: "Default",
 			"file_name"		: "default.trigger",
 			"description" 	: "Basic Apex Trigger template",
-			"author" 		: "Arturs Gusjko"
+			"author" 		: "Arturs Gusjko",
+			"params"		: [
+				{
+					"name"			: "api_name",
+					"description"	: "Trigger API Name",
+					"default"		: "Account"
+				},
+				{
+					"name"			: "object_name",
+					"description"	: "Object API Name",
+					"default"		: "Account"
+				}
+			]
 		}
 	]
 }
