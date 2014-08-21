@@ -14,8 +14,8 @@
 			"params"		: [
 				{
 					"name"			: "api_name",
-					"description"	: "Visualforce API Name",
-					"default"		: "MyVisualforcePageName"
+					"description"	: "Controller API name",
+					"default"		: "Ctrl"
 				},
 				{
 					"name"			: "class_description",
@@ -32,8 +32,21 @@
 			"params"		: [
 				{
 					"name"			: "api_name",
-					"description"	: "Visualforce API Name",
-					"default"		: "MyVisualforcePageName"
+					"description"	: "Handler API name",
+					"default"		: "Handler"
+				}
+			]
+		},
+		{
+			"name" 			: "Trigger Handler",
+			"file_name"		: "Trigger.cls",
+			"description" 	: "Trigger Handler",
+			"author" 		: "Arturs Gusjko",
+			"params"		: [
+				{
+					"name"			: "api_name",
+					"description"	: "Trigger Handler API name",
+					"default"		: "TriggerHandler"
 				}
 			]
 		},
@@ -51,8 +64,8 @@
 			"params"		: [
 				{
 					"name"			: "api_name",
-					"description"	: "Visualforce API Name",
-					"default"		: "MyVisualforcePageName"
+					"description"	: "Class API name",
+					"default"		: "MyClass"
 				},
 				{
 					"name"			: "class_description",
@@ -69,8 +82,8 @@
 			"params"		: [
 				{
 					"name"			: "api_name",
-					"description"	: "Visualforce API Name",
-					"default"		: "MyVisualforcePageName"
+					"description"	: "UnitTest API name",
+					"default"		: "Test"
 				}
 			]
 		},
@@ -82,8 +95,8 @@
 			"params"		: [
 				{
 					"name"			: "api_name",
-					"description"	: "Visualforce API Name",
-					"default"		: "MyVisualforcePageName"
+					"description"	: "Rest class API name",
+					"default"		: "REST"
 				},
 				{
 					"name"			: "class_description",
@@ -100,8 +113,8 @@
 			"params"		: [
 				{
 					"name"			: "api_name",
-					"description"	: "Visualforce API Name",
-					"default"		: "MyVisualforcePageName"
+					"description"	: "Web Service class API name",
+					"default"		: "WS"
 				},
 				{
 					"name"			: "class_description",
@@ -118,8 +131,8 @@
 			"params"		: [
 				{
 					"name"			: "api_name",
-					"description"	: "Visualforce API Name",
-					"default"		: "MyVisualforcePageName"
+					"description"	: "Exception class API name",
+					"default"		: "Exception"
 				},
 				{
 					"name"			: "class_description",
@@ -136,8 +149,8 @@
 			"params"		: [
 				{
 					"name"			: "api_name",
-					"description"	: "Visualforce API Name",
-					"default"		: "MyVisualforcePageName"
+					"description"	: "Email Service class API name",
+					"default"		: "ES"
 				},
 				{
 					"name"			: "class_description",
@@ -154,8 +167,8 @@
 			"params"		: [
 				{
 					"name"			: "api_name",
-					"description"	: "Visualforce API Name",
-					"default"		: "MyVisualforcePageName"
+					"description"	: "Url Rewriter class API name",
+					"default"		: "URL"
 				},
 				{
 					"name"			: "class_description",
@@ -174,11 +187,11 @@
 			"params"		: [
 				{
 					"name"			: "api_name",
-					"description"	: "Visualforce API Name",
-					"default"		: "MyVisualforcePageName"
+					"description"	: "Visualforce Component API Name",
+					"default"		: "MyVisualforceComponentName"
 				},
 				{
-					"name"			: "page_description",
+					"name"			: "component_description",
 					"description"	: "Short page description that is added to the comments.",
 					"default"		: ""
 				}
@@ -194,7 +207,7 @@
 			"params"		: [
 				{
 					"name"			: "api_name",
-					"description"	: "Visualforce API Name",
+					"description"	: "Visualforce Page API Name",
 					"default"		: "MyVisualforcePageName"
 				},
 				{
