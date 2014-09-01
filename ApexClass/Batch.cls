@@ -8,7 +8,7 @@ public with sharing class {{ api_name }}
 								, SchedulerBackgroundJob.IBatchable
 								//, SchedulerBackgroundJob.ISelfReschedulable
 {
-	public {{ api_name }}
+	public {{ api_name }}()
 	{
 
 	}
