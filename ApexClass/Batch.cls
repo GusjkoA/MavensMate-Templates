@@ -8,10 +8,10 @@ public with sharing class {{ api_name }}
 								, SchedulerBackgroundJob.IBatchable
 								//, SchedulerBackgroundJob.ISelfReschedulable
 {
-	//public {{ api_name }}()
-	//{
+	public {{ api_name }}()
+	{
 
-	//}
+	}
 
 	public Database.QueryLocator start(Database.BatchableContext bc, String originalJobName, String params)
 	{
@@ -28,4 +28,4 @@ public with sharing class {{ api_name }}
 		Log.d('finish!');
 		return true;
 	}
-}
+} 
