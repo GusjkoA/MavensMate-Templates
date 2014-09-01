@@ -3,32 +3,29 @@
  *
  * @author		Arturs Gusjko
  */
-global withOUT sharing class {{ api_name }} extends AbstractBatchable
+public with sharing class {{ api_name }}
+								implements 	SchedulerBackgroundJob.IBackgroundJob
+								, SchedulerBackgroundJob.IBatchable
+								//, SchedulerBackgroundJob.ISelfReschedulable
 {
-	global {{ api_name }}()
+	public {{ api_name }}
 	{
-		super();
-		// IsSelfReschedulable = true;
-		// PostponeTimeInMins = ;
-		// RescheduleTimeInMins = ;
-		query = 'Select Id from Account';
+
 	}
 
-	global override Database.QueryLocator batchStart(Database.BatchableContext bc)
+	public Database.QueryLocator start(Database.BatchableContext bc, String originalJobName, String params)
 	{
-		return Database.getQueryLocator(query);
+		return Database.getQueryLocator([SELECT Id FROM Account]);
 	}
 
-	global override void batchExecute(Database.BatchableContext bc, List<SObject> scope)
+	public void execute(Database.BatchableContext bc, List<SObject> scope)
 	{
-		for(SObject o : scope)
-		{
-			System.debug(o);
-		}
+		System.debug(scope);
 	}
 
-	global override void batchFinish(Database.BatchableContext bc)
+	public Boolean finish(Database.BatchableContext bc, Boolean isStartError)
 	{
-		// USE IsSelfReschedulable = false; to terminate continuous execution on certain condition if is set to true before
+		Log.d('finish!');
+		return true;
 	}
 }

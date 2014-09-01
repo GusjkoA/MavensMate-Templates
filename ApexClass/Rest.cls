@@ -1,5 +1,5 @@
 /**
- * {{ class_description }}
+ * 
  *
  * Access @ https://my_instance.salesforce.com/services/apexrest/my_url/
  *

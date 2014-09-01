@@ -4,7 +4,14 @@
 			"name" 			: "Batch",
 			"file_name"		: "Batch.cls",
 			"description" 	: "Batchable Apex Class",
-			"author" 		: "Arturs Gusjko"
+			"author" 		: "Arturs Gusjko",
+			"params"		: [
+				{
+					"name"			: "api_name",
+					"description"	: "Background Job API name",
+					"default"		: "Ctrl"
+				}
+			]
 		},
 		{
 			"name" 			: "Controller",
@@ -16,11 +23,6 @@
 					"name"			: "api_name",
 					"description"	: "Controller API name",
 					"default"		: "Ctrl"
-				},
-				{
-					"name"			: "class_description",
-					"description"	: "Short page description that is added to the header comments.",
-					"default"		: ""
 				}
 			]
 		},
@@ -54,7 +56,14 @@
 			"name" 			: "Schedulable",
 			"file_name"		: "Schedulable.cls",
 			"description" 	: "Schedulable Apex Class",
-			"author" 		: "Arturs Gusjko"
+			"author" 		: "Arturs Gusjko",
+			"params"		: [
+				{
+					"name"			: "api_name",
+					"description"	: "Background Job API name",
+					"default"		: "Ctrl"
+				}
+			]
 		},
 		{
 			"name" 			: "Data (Default)",
@@ -66,11 +75,6 @@
 					"name"			: "api_name",
 					"description"	: "Class API name",
 					"default"		: "MyClass"
-				},
-				{
-					"name"			: "class_description",
-					"description"	: "Short page description that is added to the header comments.",
-					"default"		: ""
 				}
 			]
 		},
@@ -97,11 +101,6 @@
 					"name"			: "api_name",
 					"description"	: "Rest class API name",
 					"default"		: "REST"
-				},
-				{
-					"name"			: "class_description",
-					"description"	: "Short page description that is added to the header comments.",
-					"default"		: ""
 				}
 			]
 		},
@@ -115,11 +114,6 @@
 					"name"			: "api_name",
 					"description"	: "Web Service class API name",
 					"default"		: "WS"
-				},
-				{
-					"name"			: "class_description",
-					"description"	: "Short page description that is added to the header comments.",
-					"default"		: ""
 				}
 			]
 		},
@@ -133,11 +127,6 @@
 					"name"			: "api_name",
 					"description"	: "Exception class API name",
 					"default"		: "Exception"
-				},
-				{
-					"name"			: "class_description",
-					"description"	: "Short page description that is added to the header comments.",
-					"default"		: ""
 				}
 			]
 		},
@@ -151,11 +140,6 @@
 					"name"			: "api_name",
 					"description"	: "Email Service class API name",
 					"default"		: "ES"
-				},
-				{
-					"name"			: "class_description",
-					"description"	: "Short page description that is added to the header comments.",
-					"default"		: ""
 				}
 			]
 		},
@@ -169,11 +153,6 @@
 					"name"			: "api_name",
 					"description"	: "Url Rewriter class API name",
 					"default"		: "URL"
-				},
-				{
-					"name"			: "class_description",
-					"description"	: "Short page description that is added to the header comments.",
-					"default"		: ""
 				}
 			]
 		}
@@ -189,11 +168,6 @@
 					"name"			: "api_name",
 					"description"	: "Visualforce Component API Name",
 					"default"		: "MyVisualforceComponentName"
-				},
-				{
-					"name"			: "component_description",
-					"description"	: "Short page description that is added to the comments.",
-					"default"		: ""
 				}
 			]
 		}
@@ -209,11 +183,6 @@
 					"name"			: "api_name",
 					"description"	: "Visualforce Page API Name",
 					"default"		: "MyVisualforcePageName"
-				},
-				{
-					"name"			: "page_description",
-					"description"	: "Short page description that is added to the comments.",
-					"default"		: ""
 				}
 			]
 		}

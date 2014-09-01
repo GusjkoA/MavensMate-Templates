@@ -1,5 +1,5 @@
 /**
- * {{ class_description }}
+ * 
  *
  * @author		Arturs Gusjko
  */

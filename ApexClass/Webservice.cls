@@ -1,7 +1,7 @@
 /**
  * SOAP web service types/methods.
  *
- * {{ class_description }}
+ * 
  *
  * @author		Arturs Gusjko
  */

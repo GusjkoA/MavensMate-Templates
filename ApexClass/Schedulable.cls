@@ -3,18 +3,19 @@
  *
  * @author		Arturs Gusjko
  */
-global class {{ api_name }} extends AbstractSchedulable
+public class {{ api_name }}
+					implements SchedulerBackgroundJob.ISchedulable 
+								, SchedulerBackgroundJob.ISelfReschedulable
+								, SchedulerBackgroundJob.IBackgroundJob
 {
-	global {{ api_name }}()
+	public {{ api_name }}()
 	{
-		super();
 
-		// IsSelfReschedulable = true;
-		// RescheduleTimeInMins = 60;
 	}
 
-	global override void schExecute(SchedulableContext sc)
+	public Boolean execute(SchedulableContext sc, String originalJobName, String params)
 	{
-		// logic here
+		System.debug('hello world');
+		return true;
 	}
 }
