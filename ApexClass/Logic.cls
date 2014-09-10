@@ -1,9 +1,6 @@
 /**
- * Handler class for the associated object.
- * The object is taken as an input parameter in all methods of this class.
  *
- * IMPORTANT: Logic class should always be transient.
- *
+ * 
  * @author		Arturs Gusjko
  */
 public with sharing class {{ api_name }}
