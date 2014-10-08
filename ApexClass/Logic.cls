@@ -28,7 +28,7 @@ public without sharing class {{ api_name }}
 	/************* GENERIC METHODS **************/
 
 	static private final {{ api_name }} instance = new {{ api_name }}();
-	static private final {{ api_name }}WithSharing withSharing = new {{ api_name }}WithoutSharing(instance);
+	static private final {{ api_name }}WithSharing withSharing = new {{ api_name }}WithSharing(instance);
 	static public {{ api_name }} getInstance()
 	{
 		return instance;
