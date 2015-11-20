@@ -1,17 +1,15 @@
 /**
- * Tests for associated class.
+ * @description Tests for associated class.
  *
- * @author		Artur Gusjko
+ * @author      Artur Gusjko
  */
-@isTest
+@IsTest
 private class {{ api_name }}
 {
-	static private Boolean isExcThrown = false;
+    static private void setup()
+    {
+        TestData.setup();
+    }
 
-	static private void setup()
-	{
-		TestData.setup();
-	}
-
-	
+    
 }
